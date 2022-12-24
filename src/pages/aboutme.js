@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <main>
       <h1>About Me</h1>
-        <Link to="/projects">Projects</Link>
+        <Link to="/project">Projects</Link>
       <p>Hi there! I'm a Machine Learning and AI learner.</p>
     </main>
   )
