@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <main>
       <h1>Welcome to my Portfolio site!</h1>
-        <Link to="/about">About</Link>
+        <Link to="/aboutme">About</Link>
       <p>I'm a thinker and creator (FAKE)</p>
     </main>
   )

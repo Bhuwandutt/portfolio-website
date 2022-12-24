@@ -6,7 +6,7 @@ const ProjectPage = () => {
   return (
     <main>
       <h1>My Projects</h1>
-        <Link to="/projects">Github</Link>
+        <Link to="/">Home</Link>
       <p>These are the projects I have done</p>
     </main>
   )
