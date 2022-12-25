@@ -30,5 +30,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-  ] // I AM NEW],
+  ], // I AM NEW],
 }
