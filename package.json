@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "gatsby": "^5.3.3",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-styled-components",
+    "gatsby-plugin-react-helmet": "^6.3.0",
+    "gatsby-plugin-styled-components": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"
