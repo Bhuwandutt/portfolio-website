@@ -7,15 +7,15 @@ const StyledHeader = styled.header`
   max-width: 62.5rem;
   height: 6.25rem;
   margin: 0 auto;
-  padding: 0 2.5rem;
-  background: white;
+  padding: 0 4.5rem;
+  background: black;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 `
 
 const StyledLogo = styled.div`
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 900;
   color: black;
 `
@@ -24,8 +24,14 @@ const Header = () => {
   return (
     <StyledHeader>
       <Link to="/" aria-label="home">
-        <StyledLogo>km.</StyledLogo>
+        <ul>Home</ul>
       </Link>
+        <Link to="/aboutme" aria-label="About Me">
+          <ul> About Me</ul>
+        </Link>
+        <Link to={"/project"} aria-label={"Projects"}>
+        <ul>Projects</ul>
+        </Link>
     </StyledHeader>
   )
 }
